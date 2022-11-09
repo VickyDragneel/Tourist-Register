@@ -1,0 +1,17 @@
+.bg-img
+{
+   
+    position: fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    
+}
+.nav-link :hover{
+    color: #ea1538;
+    display: flex;
+    font-weight: bold;
+    font-style: oblique;
+    font: 1em sans-serif;
+    text-decoration: dotted;
+}

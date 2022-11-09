@@ -1,0 +1,25 @@
+  <table>
+      <h1 style="text-align:center" style="color: rgb(255, 255, 255);">Tourist List</h1>
+    <tr style="background-color: rgba(134, 71, 71, 0.336);">
+      <th >ID</th>
+      <th >FirstName</th>
+      <th >LastName</th>
+      <th>Source</th>
+      <th >Age</th>
+      <th >Days Of Visit</th>
+      <th >Gender</th>
+    </tr>
+  <tbody>
+    <tr *ngFor="let tourist of user"   style="color: rgb(255, 255, 255);">
+      <td >{{tourist.id}}</td>
+      <td>{{tourist.fname}}</td>
+      <td>{{tourist.lname}}</td>
+      <td>{{tourist.source}}</td>
+      <td>{{tourist.age}}</td>
+      <td>{{tourist.daysOfVisit}}</td>
+      <td>{{tourist.gender}}</td>
+    </tr>
+  </tbody>
+  </table>
+  
+  
